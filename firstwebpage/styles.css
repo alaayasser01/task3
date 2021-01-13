@@ -1,0 +1,159 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100%;
+
+}
+.container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgb(15, 15, 15);
+  margin:auto;  
+}
+.head2{
+  list-style-type: none;
+  margin: 5px;
+}
+.nav1{
+  margin: 15px;
+  font-size: 12px;
+}
+header {
+  display: flex;
+  margin: 10px 5px 5px 5px;
+  justify-content: space-between;
+  width: 80%;
+}
+.head1{
+  font-size: 30px;
+  margin: auto;
+  margin-left: 35px;
+}
+ ul {
+   display: flex;
+   justify-content: space-between;
+}
+.bg-container {
+  height: 100vh;
+  background-image:  url("space-911785_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+}
+.Undercentered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.links{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+ }
+
+ .read{
+  color:white;
+   background-color:black;
+   padding: 17px 35px;
+ }
+ .download{
+  color:white;
+   border: 1px solid  blanchedalmond;
+   padding: 15px 25px;
+ }
+
+ #search {
+   margin-left: 30px;
+ }
+ .blogbg{
+  overflow: hidden;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: black;
+  height: 1200px;
+ }
+ #seeblog{
+  padding: 8px 30px;
+  margin-bottom: 7%;
+  border-radius: 15%;
+  background-color:orangered;
+  color:white;
+ }
+ .threeimg{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+ }
+ .threeimg div{
+   width: 30%;
+   margin:10px;
+  display:flex;
+  flex-direction: column;
+ 
+  align-items: center;
+  }
+   .item{
+   width:100%;
+   height:300px;
+   
+ }
+ .boldy{
+  width: 90%;
+  margin-top: 40px; 
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+ }
+ .mshboldy{
+  width: 90%;
+  margin-top: 40px; 
+  font-size: 22px;
+  font-weight: 25;
+  text-align: left;
+ }
+ .bgitem{
+   background-color: white;
+ }
+ #icon{
+   color: black;
+ }
+ .readmore{
+  width: 90%;
+  color: orangered;
+  text-decoration: none;
+  margin: 10px;
+  padding: 50px;
+ }
